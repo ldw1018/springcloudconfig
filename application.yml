@@ -1,0 +1,14 @@
+spring:
+  profiles:
+	active:
+	- dev
+---
+spring:
+  profiles:
+  application:
+	name: microservicecloud-config-bdqn-dev
+---
+spring:
+  profiles:
+  application:
+	name: microservicecloud-config-bdqn-test
